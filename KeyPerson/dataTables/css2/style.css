@@ -1,0 +1,78 @@
+body {
+background-color: #fff;
+}
+.CetakTombol {
+	background-color:#f6b33d;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:1px solid #eda933;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:21px;
+	font-weight:normal;
+	padding:0px 25px;
+	text-decoration:none;
+}.CetakTombol:hover {
+	background-color:#d29105;
+}.CetakTombol:active {
+	position:relative;
+	top:1px;
+}
+.wrap {
+	width: 960px;
+	margin: 50px auto;
+	}
+.clearfloat {
+	clear: both; 
+	}
+.header {
+	height: 100px;
+	font-family: Arial;
+	font-size: 24px;
+	}
+.menu {
+	float: left;
+	width:300px;
+	margin-top: 10px;
+	font-size: 18px;
+	}
+.menu a, .MenuKanan a{
+	text-decoration: none;
+	color: #645757;
+	}
+.MenuKanan {
+	font-size: 18px;
+	float: right;
+	}
+.footer {
+	margin: 0 auto;
+	}
+.aksi {
+	text-decoration: none;
+	color: black;
+	}
+	/* CSS for Zebra Table in index.html */
+.zebra-table {
+	width: 500%;
+	padding:100px 100px;
+	border-collapse: collapse;
+	box-shadow: 0 2px 3px 1px #ddd;
+	overflow: hidden;
+	border:10px solid #fff;
+	font-size: 12;
+}
+	.zebra-table th,.zebra-table td{
+		vertical-align: top;
+		padding:10px 7px;
+		text-align: left;
+		margin:0;
+		
+	}
+		.zebra-table tbody tr:nth-child(odd) { /* Make table like zebra */
+			background:#eee;
+			padding:10px 7px;
+		}
+
+/* End CSS for Zebra Table in index.html */
