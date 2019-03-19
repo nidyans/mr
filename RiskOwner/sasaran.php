@@ -5,7 +5,7 @@ $unit="SELECT * from user where user='$_GET[uname]'";
 
              while($x=mysql_fetch_array($jalankan)){
 
-
+//testlagi
 
 $unit = mysql_fetch_array(mysql_query("select * from user where user='$namauser'"));
 $tahun = substr($data['tahun_sasaran'], 0,  4);
